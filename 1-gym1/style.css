@@ -1,3 +1,5 @@
+/* Copyright Antonio Stan */
+
 html, body{
     width: 100%;
     height: 100%;
@@ -15,10 +17,9 @@ html, body{
     border-top: 2px solid #787878;
 }
 
-
 /*Home Section*/
 .home-inner{
-    background: url(/1-gym1/img/background2.jpg);
+    background: url('img/background2.jpg');
     opacity: 85%;
 }
 
@@ -41,10 +42,6 @@ html, body{
 .bg-light{
     background-color: #f35507 !important;
     opacity: 85%;
-}
-
-.padding2{
-    padding-top: 10px;
 }
 
 .nav-link:hover{
@@ -200,6 +197,7 @@ footer{
     color: #c2c2c2;
     letter-spacing: 2px;
     text-align: center;
+    height: 500px;
 }
 
 footer a{
@@ -213,6 +211,10 @@ footer svg.svg-inline--fa{
 
 footer svg.svg-inline--fa:hover{
     color: #1ebba3 !important;
+}
+
+#copyright{
+    margin-top: 50px;
 }
 
 /*Fixed Second Background Image*/
@@ -306,14 +308,12 @@ figure {
 }
 
 @media (max-width: 768px){
-    .caption h1{
+    .caption a{
         font-size: 3rem;
     }
-    .caption a{
-        font-size: 1.5rem;
-    }
     .text-format{
-        font-size: 30px;
+        font-size: 3rem;
+        font-weight: 400;
     }
     .card-image-top{
         display: block;
@@ -329,14 +329,21 @@ figure {
         width: 50%;
         height: auto;
     }
-    figcaption a h4{
+    figcaption{
         text-align: center;
     }
     .caption{
         top: 50%;
-        transform: translateY(-50%);
+        left: 1%;
+        transform: translateY(-50%, -50%);
     }
     .caption h1{
-        font-size: 3rem;
+        font-size: 5rem;
+    }
+    .maplink{
+        margin-left: 0 auto;
     }
 }
+
+
+/* Copyright Antonio Stan */
