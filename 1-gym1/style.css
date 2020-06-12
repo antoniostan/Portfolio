@@ -117,29 +117,15 @@ html, body{
 
 /*Locations section*/
 .card-img-top-second{
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    display: block;
+    margin: 0 auto;
     height: 350px;
     width: 350px;
-}
-
-.card-title-second{
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
 }
 
 .under{
     text-decoration: underline;
     text-decoration-color: #f35507;
-}
-
-.underline-map{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    margin-left: 125px;
 }
 
 .underline-map::before{
@@ -174,9 +160,10 @@ html, body{
 
 /*Cards*/
 .card-image-top{
-    width: 300px;
+    display: block;
+    width: 50%;
     height: 400px;
-    margin-left: 50px;
+    margin: 0 auto;
 }
 
 .card-text{
