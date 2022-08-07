@@ -1,0 +1,92 @@
+.width{
+    width: 81.6%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.resize_content_1{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.btn_1{
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn_1:hover{
+    color: #c40000 !important;
+    border-color: #000000 !important;
+}
+
+.btn_2{
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: #000000 !important;
+}
+
+.btn_2:hover{
+    color: #c40000 !important;
+    border-color: #ffffff !important;
+}
+
+.middle h3{
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+.image_resize{
+    width: 100%;
+    height: 900px;
+    opacity: 0.8;
+    margin-top: 45px;
+}
+
+.text-inside{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-inside h1{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #c40000;
+}
+
+.text-inside a{
+    font-size: 25px !important;
+    margin-top: 10px !important;
+}
+
+.text-inside a:hover{
+    color: #ffffff !important;
+    background-color: #c40000 !important;
+}
+
+.btn-outline-dark{
+    border: 1px solid #000000;
+    color: #000000;
+}

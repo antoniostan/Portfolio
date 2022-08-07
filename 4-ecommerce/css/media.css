@@ -1,0 +1,6 @@
+@media (max-width: 1024px){
+    .search{
+        position: relative;
+        width: 50%;
+    }
+}

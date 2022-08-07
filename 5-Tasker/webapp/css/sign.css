@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.bg {
+    height: 100%;
+    background-image: url(/img/signin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    background-color: #f9f9f9;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.container > h1 {
+    margin: 30px 30px 40px 30px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-decoration-color: #0F5298;
+}
+
+.sign {
+    text-align: center;
+    text-decoration: none;
+    color: #0F5298;
+    padding: 20px 150px;
+    border: 1px solid #0F5298;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.sign:hover{ 
+    background-color: #0F5298;
+    color: #f9f9f9;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.log {
+    text-align: center;
+    text-decoration: none;
+    color: #f9f9f9;
+    background-color: #0F5298;
+    padding: 20px 160px;
+    border: 1px solid #0F5298;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.log:hover {
+    color: #0F5298;
+    background-color: #f9f9f9;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.container > form > h4 {
+    text-align: left;
+    margin-left: 2em;
+}
+
+.container > form > h4 > a {
+    color: #0F5298;
+    text-decoration: none;
+}
+
+.container > form > h4 > a:hover {
+    color: #0063D9;
+}
+
+.container_2 {
+    display: none;
+    width: 800px;
+    height: 450px;
+    background-color: #f9f9f9;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.container_2 > h1 {
+    margin: 30px 30px 40px 30px;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-decoration-color: #0F5298;
+}
+
+.container_2 > form > input {
+    padding: 7px 15px;
+    width: 50%;
+    border-radius: 3px;
+    border: 1px solid black;
+}

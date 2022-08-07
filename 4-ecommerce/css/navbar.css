@@ -1,0 +1,97 @@
+.dropbtn{
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 550px;
+    min-height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 0;
+    padding-bottom: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.left h6{
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+
+.right{
+    float: right;
+    padding-right: 3rem;
+}
+
+.right h6{
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+
+.dropdown-content h6{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.dropdown-content a {
+    font-size: 12px;
+    color: #000000;
+    padding: 5px;
+    padding-left: 15px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+    text-decoration-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DA0000 !important;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #ffffff !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+/* Logo Section */
+.navbar-brand{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #c40000;
+}

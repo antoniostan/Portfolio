@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+.border {
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid #0F5298;
+}
+
+.welcome-title {
+    padding: 40px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #0F5298;
+}
+
+.welcome-subtitle {
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}   
+
+.left {
+    width: 20%;
+    margin: 20px;
+    float: left;
+    background-color: #eaeaea;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 20px;
+}
+
+.faded {
+    opacity: 0.7;
+}
+
+.card-content {
+    float: right;
+    margin: 10px;
+}
+
+.card > img{
+    float: left;
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.about {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+}
+
+.about-title {
+    padding: 20px;
+}
+
+.description {
+    padding: 0px 5px 20px 20px;
+}
+
+.short {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 2px solid #0F5298;
+}
+
+.additional {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin: 20px;
+}
+
+.skill-title {
+    padding: 20px;
+}
+
+.skill {
+    padding: 20px;
+    float: left;
+}
+
+.symbol {
+    padding: 20px;
+    float: right;
+}
+
+.long {
+    width: 100%;
+    border-top: 2px solid #0F5298;
+}
+
+.right {
+    margin: 40px;
+    width: 70%;
+    float: left;
+}
+
+.review {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.text-review {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+}
+
+.select {
+    float: right;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.link-review {
+    text-decoration: none;
+    color:#0F5298;
+    padding: 10px;
+}
+
+.link-review:hover {
+    text-decoration: underline;
+    text-decoration-color: #0F5298;
+}
+
+.select-button {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 26px;
+    text-align: center;
+    background-color :#0F5298;
+    color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.select-button:hover {
+    background-color: white;
+    color: #0F5298;
+    border: 1px solid #0F5298;
+}
+

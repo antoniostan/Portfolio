@@ -1,0 +1,12 @@
+-pentru divul cu 3 coloane:
+	un container care sa cuprinda width-ul original cu o marime setata cat sa cuprinda imaginile corespunzator
+	de refacut cu totul
+
+-spatiul acela este acolo din cauza clasei .text-inside;
+	de refacut clasa
+
+-de facut footerul
+
+-de facut retusurile finale
+
+-de optimizat pt device-uri cu latimea <= 768px
