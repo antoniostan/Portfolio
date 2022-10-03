@@ -2,7 +2,9 @@
 Portfolio containing projects that use front-end programming languages and certifications for programming contests and courses.
 
 
-Projects 1-4 are simple landing pages created while I was studying front-end development.
+Projects 1,3,4 are simple landing pages created while I was studying front-end development.
+
+Project 4 was made as a side 'hustle' during summer break and it's a full front-end ecommerce website that uses a single product.
 
 Project 5 is a web application built for my final laboratory assignment in Introduction to Web Development in college that uses a log-in/registration system. I am currently working to switch to ExpressJS for a more modern approach.
 
