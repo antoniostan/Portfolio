@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=DynaPuff&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="css/checkout.css" type="text/css">
+    <script type="module" src="/js-cookie/dist/js.cookie.mjs"></script>
+    <script nomodule defer src="js-cookie/dist/js.cookie.js"></script>
+    <title>Checkout</title>
+</head>
+<body>
+    <section id="header">
+        <nav>
+            <ul class="navbar-2">
+                <li id="logo">
+                    <a href="index.html" class="grey">
+                        t
+                        <a href="index.html" class="black">
+                            a 
+                            <a href="index.html" class="grey">
+                                s
+                                <a href="index.html" class="black">
+                                    k 
+                                    <a href="index.html" class="grey">
+                                        e 
+                                        <a href="index.html" class="black">
+                                            r. 
+                                        </a> 
+                                    </a> 
+                                </a> 
+                            </a>
+                        </a>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="left">
+        <div class="split left-container w-55">
+            <div class="left-content">
+                <div class="contact-info">
+                    <p>Informațiile de contact</p>
+                    <input type="text" class="contact-mail" placeholder="Email sau numar de telefon" required><br>
+                    <div>
+                        <input type="checkbox" class="contact-checkbox">
+                        <label for="newsletter">Abonează-mă la newsletter</label>
+                    </div>
+                </div>
+                <div class="shipping-address">
+                    <p>Adresa de livrare</p>
+                    <p class="county">Județ</p>
+                    <select name="judet" id="judet" required>
+                        <option value="AB">Alba</option>
+                        <option value="AG">Arges</option>
+                        <option value="AR">Arad</option>
+                        <option value="B" >Bucuresti</option>
+                        <option value="BC">Bacau</option>
+                        <option value="BH">Bihor</option>
+                        <option value="BN">Bistrita</option>
+                        <option value="BR">Braila</option>
+                        <option value="BT">Botosani</option>
+                        <option value="BV">Brasov</option>
+                        <option value="BZ">Buzau</option>
+                        <option value="CJ">Cluj</option>
+                        <option value="CL">Calarasi</option>
+                        <option value="CS">Caras-Severin</option>
+                        <option value="CT">Constanta</option>
+                        <option value="CV">Covasna</option>
+                        <option value="DB">Dambovita</option>
+                        <option value="DJ">Dolj</option>
+                        <option value="GJ">Gorj</option>
+                        <option value="GL">Galati</option>
+                        <option value="GR">Giurgiu</option>
+                        <option value="HD">Hunedoara</option>
+                        <option value="HG">Harghita</option>
+                        <option value="IF">Ilfov</option>
+                        <option value="IL">Ialomita</option>
+                        <option value="IS">Iasi</option>
+                        <option value="MH">Mehedinti</option>
+                        <option value="MM">Maramures</option>
+                        <option value="MS">Mures</option>
+                        <option value="NT">Neamt</option>
+                        <option value="OT">Olt</option>
+                        <option value="PH">Prahova</option>
+                        <option value="SB">Sibiu</option>
+                        <option value="SJ">Salaj</option>
+                        <option value="SM">Satu-Mare</option>
+                        <option value="SV">Suceava</option>
+                        <option value="TL">Tulcea</option>
+                        <option value="TM">Timis</option>
+                        <option value="TR">Teleorman</option>
+                        <option value="VL">Valcea</option>
+                        <option value="VN">Vrancea</option>
+                        <option value="VS">Vaslui</option>
+                    </select>
+                    <div class="shipping-name">
+                        <input type="text" class="half-row float-left" placeholder="Prenume" required>
+                        <input type="text" class="half-row float-right" placeholder="Nume" required>
+                    </div>
+                    <input type="text" placeholder="Adresă" class="full-row" required>
+                    <input type="text" placeholder="Bloc, scară, apartament" class="full-row" required>
+                    <div class="shipping-name">
+                        <input type="text" placeholder="Oraș" class="half-row float-left" required>
+                        <input type="text" placeholder="Cod poștal" class="half-row float-right" required>
+                    </div>
+                    <div class="shipping-name">
+                        <input type="text" placeholder="Telefon (opțional)" class="phone">
+                        <span class="question" id="question" onmouseenter="showText()" onmouseleave="hideText()">?</span>
+                        <div class="hidden-text" id="hidden-text">
+                            <p>Numarul tău de telefon va fi cerut doar pentru a-ți comunica starea comenzii.</p>
+                        </div>
+                    </div>
+                    <div class="shipping-name">
+                        <a href="cart.html" class="float-left to-cart">&lt; Întoarce-te la coș</a>
+                        <a href="#" class="float-right to-shipping">Continuă spre livrare</a> <!-- TODO: MAKE THIS <BUTTON>-->
+                    </div><br><br><br><br><br><br><br><br>
+                    <hr class="horizontal-4">
+                    <div class="other-links">
+                        <a href="#">Politica de retur</a>
+                        <a href="#">Politica de confidențialitate</a>
+                        <a href="#">Termeni și servicii</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="right">
+        <div class="split right-container w-45">
+            <div class="right-content">
+                <div class="right-product">
+                    <div class="right-image">
+                        <div class="right-quantity" id="quantity_2"></div>
+                        <img src="img/robotswitch.jpg">
+                    </div>
+                    <h4>Declansator mecanic SMART SwitchBot</h4>
+                    <div class="subtotal">
+                        <div id="total_3">0.00RON</div>
+                    </div>  
+                </div>
+                <hr class="horizontal-3">
+                <div class="discount">
+                    <input type="text" placeholder="Codul Discount" id="discount-code">
+                    <button class="discount-apply" id="discount-apply">Aplică codul</button>
+                </div>
+                <hr class="horizontal-3">
+                <div class="subtotal-row">
+                    <p>Subtotal</p>
+                    <p id="total_4">0.00RON</p>
+                </div><br>
+                <div class="subtotal-row">
+                    <p>Shipping</p>
+                    <p class="shipping-grey">Calculat la următorul pas</p>
+                </div>
+                <hr class="horizontal-3">
+                <div class="subtotal-row">
+                    <p class="big-total">Total</p>
+                    <p id="total_5" class="big-total">0.00RON</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/cart.js" type="text/javascript"></script>
+</body>
+</html>

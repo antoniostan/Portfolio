@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.horizontal-3 {
+    width: 100%;
+    border: 1px solid #CFCFCF;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.horizontal-4 {
+    width: 50%;
+    margin: 2em 0;
+    border: 1px solid #CFCFCF;
+}
+
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+/* ===LEFT=== */
+
+.left-container {
+    left: 0;
+    margin-top: 10em;
+}
+
+.left-content {
+    width: 100%;
+    margin-left: 13em;
+}
+
+.contact-info {
+    line-height: 3.5em;
+}
+
+.contact-info > p {
+    font-size: 22px;
+}
+
+.contact-info > .contact-mail {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #B2B2B2;
+    padding: 0 7px;
+    border-radius: 5px;
+}
+
+.contact-checkbox {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+}
+
+.contact-info > div {
+    margin-top: -10px;
+}
+
+.shipping-address > p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.county {
+    font-size: 15px !important;
+    margin-bottom: 5px !important;
+}
+
+.shipping-address > select {
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.shipping-name {
+    width: 50%;
+}
+
+.half-row {
+    width: 46%;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+    padding: 0 5px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.full-row {
+    width: 48.85%;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+    margin-top: 10px;
+    height: 40px;
+    padding: 0 5px;
+}
+
+.phone {
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+    margin-top: 10px;
+    height: 40px;
+    padding: 0 5px;
+}
+
+.question {
+    position: absolute;
+    right: 32%;
+    top: 53.5%;
+    background-color: #B2B2B2;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.hidden-text {
+    display: none;
+    position: absolute;
+    right: 15%;
+    top: 48%;
+    background-color: #CFCFCF;
+    padding: 5px;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 14px;
+}
+
+.to-cart {
+    color: #5B8DFF;
+    margin-top: 45px;
+}
+
+.to-shipping {
+    color: black;
+    background-color: #E5ACDF;
+    padding: 20px 16px;
+    margin-top: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.to-shipping:hover {
+    background-color: #e182d9;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.other-links > a {
+    color: #5B8DFF;
+    font-size: 14px;
+    margin: 10px;
+}
+
+/* ===RIGHT=== */
+
+.right-container {
+    right: 0;
+    background-color: #F1F1F1;
+    border-left: 2px solid #CFCFCF;
+}
+
+.navbar-2 {
+    list-style-type: none;
+}
+
+.right-content {
+    width: 70%;
+    height: 40%;
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+.right-product {
+    display: flex;
+    align-items: center;
+}
+
+.right-product > .right-image{
+    width: 95px;
+    height: 90px;
+    border-radius: 10px;
+    border: 2px solid #CFCFCF;
+}
+
+.right-product > .right-image > img {
+    width: 95px;
+    height: 90px;
+    z-index: 1;
+}
+
+.right-product > .right-image > .right-quantity {
+    z-index: 2;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #575757;
+    position: absolute;
+}
+
+.right-product > h4 {
+    margin-left: 1em;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.subtotal {
+    font-size: 15px;
+}
+
+.right-product > .subtotal {
+    margin-left: 5em;
+}
+
+.discount {
+    width: 100%;
+}
+
+.discount > input {
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid #CFCFCF;
+}
+
+.discount > button {
+    width: 25%;
+    height: 30px;
+    border: 1px solid #CFCFCF;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subtotal-row {
+    width: 100%;
+}
+
+.subtotal-row > p {
+    float: left;
+}
+
+#total_4 {
+    float: right !important;
+}
+
+.shipping-grey {
+    color: #B2B2B2;
+    float: right !important;
+}
+
+.big-total {
+    font-size: 20px;
+}
+
+#total_5 {
+    float: right !important;
+}

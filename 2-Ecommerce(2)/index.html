@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=DynaPuff&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+    <script type="module" src="/js-cookie/dist/js.cookie.mjs"></script>
+    <script nomodule defer src="js-cookie/dist/js.cookie.js"></script>
+    <title>Tasker</title>
+</head>
+<body>
+    <header id="header">
+        <div class="cart">
+            <div class="cart-text">
+                <a href="#" onclick="showCart()"><i class="fa fa-shopping-cart resized"><span id="cart-header"></span></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#" class="navbar-link black-border">Contact</a></li>
+                <li><a href="#" class="navbar-link grey-border">Despre Noi</a></li>
+                <li id="logo">
+                    <a href="index.html" class="grey">
+                        t
+                        <a href="index.html" class="black">
+                            a 
+                            <a href="index.html" class="grey">
+                                s
+                                <a href="index.html" class="black">
+                                    k 
+                                    <a href="index.html" class="grey">
+                                        e 
+                                        <a href="index.html" class="black">
+                                            r. 
+                                        </a> 
+                                    </a> 
+                                </a> 
+                            </a>
+                        </a>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="background">
+        <div class="background">
+            <img src="img/robotswitch.jpg" class="bg-img">
+            <div class="bg-text">
+                <h1>Viața mai ușoară</h1>
+                <h3>Nu mai este nevoie să cumperi un întrerupător inteligent!</h3>
+                <h3>Design modern, cu multiple ustensile pentru orice tip de device.</h3>
+                <a href="#product" class="bg-button">Vreau!</a>
+            </div>            
+        </div>
+    </section>
+    <hr class="horizontal">
+    <section id="product">
+        <div class="product">
+            <div class="product-images">
+                <img 
+                src="img/robotswitch2.jpg" 
+                class="product-main-img" 
+                alt="Switch Robot"
+                id="main-image"
+                />
+                <div class="product-slider-wrap">
+                    <div class="product-slider">
+                        <img 
+                        src="img/robotswitch2.jpg"
+                        alt="Second Picture"
+                        class="product-image product-image-active"
+                        />
+                        <img 
+                        src="img/1.webp"
+                        alt="Second Picture"
+                        class="product-image"
+                        />
+                        <img 
+                        src="img/5.webp"
+                        alt="Sixth Picture"
+                        class="product-image"
+                        />
+                        <img 
+                        src="img/6.webp"
+                        alt="Seventh Picture"
+                        class="product-image"
+                        />
+                        <img 
+                        src="img/2.webp"
+                        alt="Third Picture"
+                        class="product-image"
+                        />
+                        <img 
+                        src="img/3.webp"
+                        alt="Fourth Picture"
+                        class="product-image"
+                        />
+                        <img 
+                        src="img/4.webp"
+                        alt="Fifth Picture"
+                        class="product-image"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="product-text">
+                <h1>Declansator mecanic SMART SwitchBot</h1>
+                <p>
+                    124,99RON <sub>Poți cumpăra în 4 rate cu 34,99RON</sub>
+                    <a href="#">Învață mai mult</a>
+                </p>
+                <button id="desc-button" class="description" href="#product" onclick="showDescription()">Descriere</button>
+                <button id="spec-button" class="description" href="#product" onclick="showSpecs()">Specificatii</button>
+                <hr class="product-border">
+                <div class="description-text active" id="description">
+                    <p>
+                        SwitchBot, simpla ta trecere la o casa inteligenta. 
+                        Cu misiunea de a va face viata mai simpla in cel mai accesibil mod, 
+                        SwitchBot este dedicat crearii si realizarii celor mai inovatoare produse pentru casa inteligenta pentru dvs.
+                    </p>
+                    <ul>
+                        <li>
+                            <b>Declansatorul mecanic</b> SwitchBot (Bot) va permite sa modernizati toate aparatele existente sau intrerupatoarele de lumina din casa dvs.
+                            , in loc sa le inlocuiti. Se activeaza mecanic comutatorul basculant sau butonul ON / OFF.
+                        </li>
+                        <li>
+                            <b>Durata de utilizare</b> cu o baterie noua este 600 de zile daca este folosit de 2 ori pe zi la o tempatura medie de 25 ° C.
+                        </li>
+                        <li>
+                            Tot ce aveti de facut este sa lipiti <b>declansatorul mecanic </b>chiar langa un comutator sau buton basculant cu o banda de autocolant 3M.
+                        </li>
+                    </ul>
+                </div>
+                <div class="specifications-text" id="specifications">
+                    <ul>
+                        <li><b>Culoare:</b> Alb</li>
+                        <li><b>Dimensiuni:</b> 42.5x 36.5x 24 mm</li>
+                        <li><b>Greutate:</b> 42 g</li>
+                        <li><b>Alimentare:</b> Baterie CR2 - poate fi inlocuita</li>
+                        <li><b>Conectivitate:</b> Bluetooth Low Energy: Bluetooth 4.2 or higher</li>
+                        <li><b>Voice control:</b> Alexa, Google Assistant, Siti Shortcuts, IFTTT, SmartThings, LINE Clova ( este necesar Mini Hub SwitchBot)</li>
+                        <li><b>App control:</b> SwitchBot (este necesar Mini Hub SwitchBot)</li>
+                        <li><b>Certificari:</b> TELEC, FCC, CE, RoHS, BQB, KC, NCC</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <figure>
+                        <img src="img/Free-Shipping.webp" alt="Free Shipping">
+                        <figcaption>Livrare Gratuita in toata tara!</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/Guarantee.webp" alt="Guaranteed Satisfaction">
+                        <figcaption>Satisfacere Garantata</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/Warranty.webp" alt="1-Year Warranty">
+                        <figcaption>1 AN Garantie</figcaption>
+                    </figure>
+                </div>
+                <div class="cart-container">
+                    <button id="cart-button" class="cart-button add" href="#product" onclick="showCart()">Adaugă în coș</button>
+                    <button id="gpay" class="cart-button gpay" href="#product">
+                        Platește cu <i class="fa-brands fa-google-pay fa-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="checkout">
+        <div class="cart-checkout">
+            <div class="checkout">
+                <div class="checkout-title">
+                    <h3>
+                    <button class="checkout-quit" id="checkout-quit" href="#" onclick="quitCart()">X</button>
+                    Coșul tău 
+                    </h3>
+                </div>
+                <hr>
+                <div class="checkout-product">
+                    <img src="img/robotswitch.jpg" class="checkout-image" alt="product image">
+                    <div class="checkout-text">
+                        <h4>Declansator mecanic SMART SwitchBot</h4>
+                        <p>124,99RON</p>
+                        <div class="checkout-quantity">
+                            <div class="checkout-sign" id="minus" onclick="decreaseFromCart()">-</div>
+                            <div class="quantity" id="quantity">0</div>
+                            <div class="checkout-sign" id="plus" onclick="addToCart()">+</div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="subtotal">
+                    <div style="float: left">Subtotal</div>
+                    <div style="float: right" id="total">0.00RON</div>
+                </div>
+                <div class="checkout-button">
+                    <button class="goto-checkout" id="checkout-button" onclick="gotoCheckout()">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i> Checkout
+                    </button>
+                </div>
+                <div class="checkout-cart-button">
+                    <a href="cart.html">Spre coș</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="target">
+        <div class="target-container">
+            <div class="target-title-container">
+                <p>Pentru pasionații de tehnologie</p>
+            </div>
+            <p>...și nu numai</p>
+            <div class="target-advantages">
+                <div class="target-advantage">
+                    <i class="fas fa-mobile fa-3x" style="color: #E5ACDF"></i>
+                    <h2>Wireless Control</h2>
+                    <p>Îl poți controla de oriunde ești, din telefonul tău, din aplicația dedicată!</p>
+                </div>
+                <div class="target-advantage" style="margin-left: 5%;">
+                    <i class="fas fa-power-off fa-3x" style="color: #E5ACDF"></i>
+                    <h2>Consum redus cu 95%</h2>
+                    <p>Cu o viață de durată maximă, nici nu trebuie să te gândești când va fi nevoie sa îl încarci!</p>
+                </div>
+                <div class="target-advantage" style="margin-left: 5%;">
+                    <i class="fas fa-clock fa-3x" style="color: #E5ACDF"></i>
+                    <h2>Viața mai ușoară</h2>
+                    <p>Trezește-te de dimineață cu cafeaua gata prin timer-ul integrat în aplicație</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="horizontal">
+
+    <section id="banner">
+        <div class="banner-container"></div>
+    </section>
+
+    <hr class="horizontal">
+    <section id="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-text announcement">
+                <h2>Abonează-te la newsletter și află când vor apărea produse noi!</h2>
+                <p>Prin abonarea la newsletter confirm că am cel puțin 16 ani.</p>
+            </div>
+            <div class="newsletter-text labels">
+                <input type="text" class="newsletter-input" for="name" placeholder="Nume">
+                <input type="text" class="newsletter-input" for="name" placeholder="Email"><br>
+                <button type="submit" class="newsletter-submit">Abonează-mă</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">Magazin</h3>
+                <a href="#product">Produsul Săptămânii</a>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Asistență</h3>
+                <a href="#">Livrare</a>
+                <a href="#">Politica de retur</a>
+                <a href="#">Contactează-ne</a>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Companie</h3>
+                <a href="#">Despre noi</a>
+                <a href="#">Întrebări Frecvente</a>
+                <a href="#">Program de afiliați</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="copyright">
+        <div class="copyright-container">
+            <p>
+                &copy; Tasker 2023 | Toate drepturile rezevate. | 
+                <a href="#">Politica de confidențialitate</a> |
+                <a href="#">Termeni și condiții</a>
+            </p>
+        </div>
+    </section>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/cart.js" type="text/javascript"></script>
+</body>
+</html>
