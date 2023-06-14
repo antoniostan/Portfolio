@@ -1,0 +1,14 @@
+dev/mam/help/userhelp/resource/SearchResponse$SearchHits$Total.class
+dev/mam/help/userhelp/resource/SearchService$1.class
+dev/mam/help/userhelp/resource/Query.class
+dev/mam/help/userhelp/resource/SearchResponse$SearchHits$SearchHit.class
+dev/mam/help/userhelp/resource/Query$QueryBuilder.class
+dev/mam/help/userhelp/resource/SearchResponse$SearchHits.class
+dev/mam/help/userhelp/Application.class
+dev/mam/help/userhelp/resource/WebConfig.class
+dev/mam/help/userhelp/config/WebSecurityConfig.class
+dev/mam/help/userhelp/resource/SearchService.class
+dev/mam/help/userhelp/resource/SearchController.class
+dev/mam/help/userhelp/resource/PageView$PageViewBuilder.class
+dev/mam/help/userhelp/resource/PageView.class
+dev/mam/help/userhelp/resource/SearchResponse.class

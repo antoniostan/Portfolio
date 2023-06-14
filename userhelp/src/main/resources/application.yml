@@ -1,0 +1,20 @@
+---
+spring:
+  elasticsearch:
+    url: http://localhost:8080
+    index: html
+    rest:
+      uris: http://localhost:9200
+      host: "localhost"
+      port: 9200
+      scheme: "http"
+    executor:
+      corePoolSize: 10
+      maxPoolSize: 50
+  profiles:
+    group:
+      default: "stage-workstation,brand-any"
+  application:
+    name: userhelp
+    min-version: 0
+    version: 4
